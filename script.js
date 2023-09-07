@@ -8,15 +8,12 @@ document.addEventListener("DOMContentLoaded", function () {
     currentDayOfTheWeek.textContent = `Today is: ${daysOfWeek[currentDate.getDay()]}`;
     
     // Update counter with milliseconds
-// Update counter with UTC time in milliseconds
 function updateRealTimeCounter() {
     const currentTime = new Date();
     const utcTimeMilliseconds = currentTime.getTime();
     currentUTCTime.textContent = `Time (UCT) in milliseconds: ${utcTimeMilliseconds}`;
 }
 
-    
-    // Update counter every millisecond
     setInterval(updateRealTimeCounter, 1);
 
     updateRealTimeCounter();
