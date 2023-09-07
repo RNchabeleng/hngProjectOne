@@ -21,7 +21,7 @@
 - Attribute: `data-testid="currentDayOfTheWeek"`
 
 **Current UTC Time:**
-- I must display the current UTC time.
+- I must display the current UTC time in milliseconds.
 - Attribute: `data-testid="currentUTCTime"`
 
 **Track:**
