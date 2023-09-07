@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Personal Page</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Slack Name -->
+        <h2>Slack Name:</h2>
+        <h1 data-testid="slackUserName">Riki Nchabeleng</h1>
+        
+        <!-- Slack Display Picture -->
+        <h2>Slack Display Picture:</h2>
+        <img src="img/profilePicture.jpg" alt="A picture of me" data-testid="slackDisplayImage">
+        
+        <!-- Current Day of the Week -->
+        <h2>Current Day of the Week:</h2>
+        <p data-testid="currentDayOfTheWeek" id="dayOfWeek"></p>
+        
+        <!-- Current UTC Time -->
+        <h2>Current UTC Time (with Milliseconds):</h2>
+        <p data-testid="currentUTCTime" id="utcTime"></p>
+        
+        <!-- Track -->
+        <h2>Track:</h2>
+        <p data-testid="myTrack">Frontend</p>
+        
+        <!-- GitHub URL -->
+        <h2>GitHub URL:</h2>
+        <p>
+            <a href="https://github.com/yourusername/your-repo" target="_blank" data-testid="githubURL">https://github.com/yourusername/your-repo</a>
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
