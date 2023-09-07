@@ -42,7 +42,10 @@ img {
 
 /* styles.css */
 a {
-    color: #543335; /* Change this to your desired color, e.g., blue (#0077FF) */
-    /* Additional styles if needed */
-    text-decoration: none; /* Remove underline if needed */
+    color: #543335; 
+    text-decoration: none;
+}
+
+h1 {
+    font-size: xxx-large;
 }
